@@ -1,0 +1,13 @@
+#Common git commands used
+cd to sourcecode directory
+git init
+echo "# Python Created 2022-07-25" >> README.md
+git add README.md
+git add test-1.py
+git commit -m "first commit for python-ganesh"
+git branch -M main
+git remote add origin https://github.com/ganeshp967/Python.git
+git push -u origin main
+
+
+
