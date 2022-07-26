@@ -9,8 +9,9 @@ git branch -M main
 git remote add origin https://github.com/ganeshp967/Python.git
 git push -u origin main
 
-Git commands for new file
+Git commands to add new file or update a file
 
+git config --global user.email ganeshp67@hotmail.com
 git status
 git add filename.py
 git commit -m "commit comments-ganesh"
