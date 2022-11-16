@@ -17,4 +17,15 @@ git add filename.py
 git commit -m "commit comments-ganesh"
 git push -u origin main
 
+To set your account's default identity - Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+Omit --global to set the identity only in this repository. For example
+
+Run
+
+  git config  user.email "localyou@example.com"
+  git config --global user.name "Local User Name"
 
