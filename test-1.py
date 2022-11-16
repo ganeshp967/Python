@@ -2,6 +2,8 @@
 #Python code to demonstrate working of iskeyword()
 # importing "keyword" for keyword operations
 import keyword
+import time
+from datetime import date
 # printing all keywords at once using "kwlist()"
 print ("The list of keywords is : ")
 print (keyword.kwlist)
@@ -11,3 +13,5 @@ j = 1
 for i in keyword.kwlist:
     print ("The " + str(j) + "th keyword is " + i)
     j += 1
+today = date.today()
+print("Today date is " + today.strftime("%d/%m/%y"))   
